@@ -40,15 +40,9 @@ class basic_tsorter : public basic_marcher<Ch, Tr>, public strmQueueInterface<Xm
       }
 
     void run() {
-      // Where's my 'auto'???
-      std::pair<
-          g_traits::vertex_iterator,
-          g_traits::vertex_iterator
-        > iters = boost::vertices( _graph );
-      while( iters.first != iters.second ) {
+      for( auto iters = boost::vertices( _graph ); iters.first != iters.second; ++iters.first ) {
         xmlDocPtr doc = boost::get( boost::get( docptr_t(), _graph ), *iters.first );
         dumpNode( xmlDocGetRootElement( doc ), std::cout );
-        ++iters.first;
       }
     }
 
@@ -117,11 +111,7 @@ class basic_tsorter : public basic_marcher<Ch, Tr>, public strmQueueInterface<Xm
     }
 
     g_traits::vertex_descriptor getVertex( const char *name ) {
-      // I want the 'auto' keyword so bad
-      std::map<
-          std::string,
-          g_traits::vertex_descriptor
-        >::const_iterator i = _name_to_vertex.find( name );
+      auto i = _name_to_vertex.find( name );
 
       if( i == _name_to_vertex.end() ) {
         g_traits::vertex_descriptor vertex;

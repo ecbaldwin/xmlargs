@@ -119,11 +119,7 @@ namespace boost {
 
           // Find the number of adjacent edges that are still not marked as
           // connected.  Assign this to the waiting property for this vertex.
-          std::pair< // I really want the auto keyword.
-              out_edge_iterator,
-              out_edge_iterator
-            > edges = out_edges( *iter, *g );
-          for( ; edges.first != edges.second; ++edges.first ) {
+          for( auto edges = out_edges( *iter, *g ); edges.first != edges.second; ++edges.first ) {
             if( not g->connected[ target( *edges.first, *g ) ] )
               ++g->waiting[ *iter ];
           }
@@ -140,11 +136,7 @@ namespace boost {
           q.push( v );
 
           // Traverse through in edges to see what else has become connected.
-          std::pair< // I really want the auto keyword.
-              in_edge_iterator,
-              in_edge_iterator
-            > edges = in_edges( v, *g );
-          for( ; edges.first != edges.second; ++edges.first ) {
+          for( auto edges = in_edges( v, *g ); edges.first != edges.second; ++edges.first ) {
             vertex_descriptor u = source( *edges.first, *g );
             if( g->hasoutedges[ u ] ) {
               --g->waiting[ u ];
