@@ -1,0 +1,3 @@
+SUBDIRS = src docs
+
+EXTRA_DIST = README LICENSE

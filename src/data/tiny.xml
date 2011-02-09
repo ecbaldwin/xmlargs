@@ -1,0 +1,10 @@
+<blocks>
+  <block>
+    <name>block1</name>
+    <path>/path/to/block1</path>
+  </block>
+  <block>
+    <name>block2</name>
+    <path>/path/to/block2</path>
+  </block>
+</blocks>

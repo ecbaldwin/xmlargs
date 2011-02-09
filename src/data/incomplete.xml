@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<blocks>
+  <started>Tue, 03 Oct 2006 14:51:53 -0600</started>
+  <discovered>
+    <name>a</name>
+  </discovered>
+  <block>
+    <name>a</name>
+    <path>/path/to/a</path>
+    <flow>test</flow>
+    <repository>/home/cnb/work/src/block-data/linux-gnu/tests/repo/./test/a</repository>
+    <hierarchy>
+      <child>
+        <name>b</name>
+        <collection>artwork</collection>
+      </child>
+      <child>
+        <name>c</name>
+        <collection>schematic</collection>
+      </child>
+      <child>
+        <name>d</name>
+        <collection>artwork</collection>
+        <collection>schematic</collection>
+      </child>
+      <child>
+        <name>e</name>
+        <collection>artwork</collection>
+        <collection>schematic</collection>
+      </child>
+    </hierarchy>
+  </block>
+</blocks>

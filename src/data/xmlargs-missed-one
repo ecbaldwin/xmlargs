@@ -1,0 +1,29 @@
+<blocks><block>
+<name>c</name>
+<path>/home/cnb/work/src/ddm-again/linux-gnu/src/info/sandbox/blocks/c</path>
+<flow>test</flow>
+<repository>/home/cnb/work/src/ddm-again/linux-gnu/src/info/sandbox/repo/./test/c</repository>
+<hierarchy/>
+<version>5b2f0a90bdd0ce548ef213c426b18bbad1ea5b13</version>
+<tags><tag><name></name><version></version></tag></tags>
+<collection><name>artwork</name>
+<log><commit><version>b50716718add80d4361603fa4587187dcbd6bd7c</version><author>Carl N. Baldwin &lt;carl@ecbaldwin.net&gt;</author><date>Thu Nov 30 19:31:31 2006 -0700</date><message>Testing update with tag</message></commit><commit><version>2011951092dade7a7c218a51ddd0841ca15ae6c4</version><author>Carl N. Baldwin &lt;carl@ecbaldwin.net&gt;</author><date>Thu Nov 30 19:31:26 2006 -0700</date><message>Testing ddm-tag --move</message></commit><commit><version>6b04c54bfe9df465c94db4cd8d562d697eaceb92</version><author>Carl N. Baldwin &lt;carl@ecbaldwin.net&gt;</author><date>Thu Nov 30 19:31:06 2006 -0700</date><message>Commit artwork</message></commit>
+</log>
+<files><added></added><modified></modified><others><file><a>-r--r-----</a><owner>cnb</owner>.ddm-data/units/artwork/hierarchy</file>
+<file><a>-r--r-----</a><owner>cnb</owner>artwork-data</file>
+<file><a>-r--r-----</a><owner>cnb</owner>artwork-extra</file>
+</others></files>
+</collection>
+<collection><name>schematic</name>
+<log><commit><version>d75871eb02811314301013bf8a32f8c39ad6fabe</version><author>Carl N. Baldwin &lt;carl@ecbaldwin.net&gt;</author><date>Thu Nov 30 19:30:59 2006 -0700</date><message>Commit schematic</message></commit>
+</log>
+<files><added></added><modified></modified><others><file><a>-r--r-----</a><owner>cnb</owner>.ddm-data/units/schematic/hierarchy</file>
+<file><a>-r--r-----</a><owner>cnb</owner>schematic-data</file>
+</others></files>
+</collection>
+<files><unmerged></unmerged><added></added><modified></modified><deleted></deleted><others><file>.ddm-data/units/schematic/dependancies</file>
+</others></files>
+<log><commit><version>5b2f0a90bdd0ce548ef213c426b18bbad1ea5b13</version><author>Carl N. Baldwin &lt;carl@ecbaldwin.net&gt;</author><date>Wed Feb 21 15:36:24 2007 -0700</date><message>CNB: Merging collection schematic</message></commit><commit><version>5bcc05d7721c89cfd21af4c75bd4e6a69e97cef4</version><author>Carl N. Baldwin &lt;carl@ecbaldwin.net&gt;</author><date>Wed Feb 21 15:36:24 2007 -0700</date><message>CNB: Merging collection artwork</message></commit><commit><version>e79c0eee235370a305deef6e03d4c910cc1a2047</version><author>Carl N. Baldwin &lt;carl@ecbaldwin.net&gt;</author><date>Wed Feb 21 15:36:24 2007 -0700</date><message>Initial empty commit</message></commit><commit><version>b50716718add80d4361603fa4587187dcbd6bd7c</version><author>Carl N. Baldwin &lt;carl@ecbaldwin.net&gt;</author><date>Thu Nov 30 19:31:31 2006 -0700</date><message>Testing update with tag</message></commit><commit><version>2011951092dade7a7c218a51ddd0841ca15ae6c4</version><author>Carl N. Baldwin &lt;carl@ecbaldwin.net&gt;</author><date>Thu Nov 30 19:31:26 2006 -0700</date><message>Testing ddm-tag --move</message></commit><commit><version>6b04c54bfe9df465c94db4cd8d562d697eaceb92</version><author>Carl N. Baldwin &lt;carl@ecbaldwin.net&gt;</author><date>Thu Nov 30 19:31:06 2006 -0700</date><message>Commit artwork</message></commit><commit><version>d75871eb02811314301013bf8a32f8c39ad6fabe</version><author>Carl N. Baldwin &lt;carl@ecbaldwin.net&gt;</author><date>Thu Nov 30 19:30:59 2006 -0700</date><message>Commit schematic</message></commit>
+</log>
+</block>
+<generated>Wed Feb 28 10:31:17 MST 2007</generated></blocks>

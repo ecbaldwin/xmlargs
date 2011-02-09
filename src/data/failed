@@ -1,0 +1,228 @@
+<blocks>
+<started>Mon, 15 Jan 2007 13:43:31 -0700</started>
+<block>
+<name>c</name>
+<path>/home/cnb/work/src/ddm-again/linux-gnu/tests/blocks/c</path>
+<flow>test</flow>
+<repository>/home/cnb/work/src/ddm-again/linux-gnu/tests/repo/./test/c</repository>
+<hierarchy/>
+<collection><name>artwork</name>
+<revision>094881782ae3c0759d6b8771ca08eb91fc873e3c</revision>
+<tags></tags>
+<log><commit><revision>094881782ae3c0759d6b8771ca08eb91fc873e3c</revision><author>Carl N. Baldwin &lt;carl@ecbaldwin.net&gt;</author><date>Mon Jan 15 13:43:25 2007 -0700</date><message>Commit artwork</message></commit>
+</log>
+<files><unmerged></unmerged><added></added><modified></modified><deleted></deleted></files>
+</collection>
+<collection><name>schematic</name>
+<revision>f58ce9eaf00a7574577644b7d15737078d1fe42b</revision>
+<tags></tags>
+<log><commit><revision>f58ce9eaf00a7574577644b7d15737078d1fe42b</revision><author>Carl N. Baldwin &lt;carl@ecbaldwin.net&gt;</author><date>Mon Jan 15 13:43:22 2007 -0700</date><message>Commit schematic</message></commit>
+</log>
+<files><unmerged></unmerged><added></added><modified></modified><deleted></deleted></files>
+</collection>
+</block>
+<block>
+<name>d</name>
+<path>/home/cnb/work/src/ddm-again/linux-gnu/tests/blocks/d</path>
+<flow>test</flow>
+<repository>/home/cnb/work/src/ddm-again/linux-gnu/tests/repo/./test/d</repository>
+<hierarchy/>
+<collection><name>artwork</name>
+<revision>557f645bf5ba037ab4eb28334c764f58487400a5</revision>
+<tags><tag><name>testtag</name><revision>557f645bf5ba037ab4eb28334c764f58487400a5</revision></tag></tags>
+<log><commit><revision>557f645bf5ba037ab4eb28334c764f58487400a5</revision><author>Carl N. Baldwin &lt;carl@ecbaldwin.net&gt;</author><date>Mon Jan 15 13:43:25 2007 -0700</date><message>Commit artwork</message></commit>
+</log>
+<files><unmerged></unmerged><added></added><modified></modified><deleted></deleted></files>
+</collection>
+<collection><name>schematic</name>
+<revision>ec7ff6fd14d3bcf8a80f4ceb4c323342b308a19e</revision>
+<tags><tag><name>testtag</name><revision>ec7ff6fd14d3bcf8a80f4ceb4c323342b308a19e</revision></tag></tags>
+<log><commit><revision>ec7ff6fd14d3bcf8a80f4ceb4c323342b308a19e</revision><author>Carl N. Baldwin &lt;carl@ecbaldwin.net&gt;</author><date>Mon Jan 15 13:43:22 2007 -0700</date><message>Commit schematic</message></commit>
+</log>
+<files><unmerged></unmerged><added></added><modified></modified><deleted></deleted></files>
+</collection>
+</block>
+<block>
+<name>b</name>
+<path>/home/cnb/work/src/ddm-again/linux-gnu/tests/blocks/b</path>
+<flow>test</flow>
+<repository>/home/cnb/work/src/ddm-again/linux-gnu/tests/repo/./test/b</repository>
+<hierarchy><child><name>c</name><collection>artwork</collection></child></hierarchy>
+<collection><name>artwork</name>
+<revision>12470984ddf549889403ad64d55a3845b94026d3</revision>
+<tags></tags>
+<log><commit><revision>12470984ddf549889403ad64d55a3845b94026d3</revision><author>Carl N. Baldwin &lt;carl@ecbaldwin.net&gt;</author><date>Mon Jan 15 13:43:25 2007 -0700</date><message>Commit artwork</message></commit>
+</log>
+<files><unmerged></unmerged><added></added><modified></modified><deleted></deleted></files>
+</collection>
+</block>
+<block>
+<name>i</name>
+<path>/home/cnb/work/src/ddm-again/linux-gnu/tests/blocks/i</path>
+<flow>test</flow>
+<repository>/home/cnb/work/src/ddm-again/linux-gnu/tests/repo/./test/i</repository>
+<hierarchy/>
+<collection><name>artwork</name>
+<revision>817701c4ec25d172e261aecf52ce1667262a90ad</revision>
+<tags></tags>
+<log><commit><revision>817701c4ec25d172e261aecf52ce1667262a90ad</revision><author>Carl N. Baldwin &lt;carl@ecbaldwin.net&gt;</author><date>Mon Jan 15 13:43:26 2007 -0700</date><message>Commit artwork</message></commit>
+</log>
+<files><unmerged></unmerged><added></added><modified></modified><deleted></deleted></files>
+</collection>
+<collection><name>schematic</name>
+<revision>c0b51218b7c74e8c2523c90dc170ed6481a91926</revision>
+<tags></tags>
+<log><commit><revision>c0b51218b7c74e8c2523c90dc170ed6481a91926</revision><author>Carl N. Baldwin &lt;carl@ecbaldwin.net&gt;</author><date>Mon Jan 15 13:43:12 2007 -0700</date><message>Initial hierarchical commit (rogue)</message></commit>
+</log>
+<files><unmerged></unmerged><added></added><modified></modified><deleted></deleted></files>
+</collection>
+</block>
+<block>
+<name>j</name>
+<path>/home/cnb/work/src/ddm-again/linux-gnu/tests/blocks/j</path>
+<flow>test</flow>
+<repository>/home/cnb/work/src/ddm-again/linux-gnu/tests/repo/./test/j</repository>
+<hierarchy/>
+<collection><name>artwork</name>
+<revision>7d20a5ad54a6ddf44e8cecfaf8fb257e32fdc2a4</revision>
+<tags></tags>
+<log><commit><revision>7d20a5ad54a6ddf44e8cecfaf8fb257e32fdc2a4</revision><author>Carl N. Baldwin &lt;carl@ecbaldwin.net&gt;</author><date>Mon Jan 15 13:43:26 2007 -0700</date><message>Commit artwork</message></commit>
+</log>
+<files><unmerged></unmerged><added></added><modified></modified><deleted></deleted></files>
+</collection>
+<collection><name>schematic</name>
+<revision>9cbabbf221cd00d087bcc7809953500599c7b084</revision>
+<tags></tags>
+<log><commit><revision>9cbabbf221cd00d087bcc7809953500599c7b084</revision><author>Carl N. Baldwin &lt;carl@ecbaldwin.net&gt;</author><date>Mon Jan 15 13:43:12 2007 -0700</date><message>Initial hierarchical commit (rogue)</message></commit>
+</log>
+<files><unmerged></unmerged><added></added><modified></modified><deleted></deleted></files>
+</collection>
+</block>
+<block>
+<name>k</name>
+<path>/home/cnb/work/src/ddm-again/linux-gnu/tests/blocks/k</path>
+<flow>test</flow>
+<repository>/home/cnb/work/src/ddm-again/linux-gnu/tests/repo/./test/k</repository>
+<hierarchy/>
+<collection><name>artwork</name>
+<revision>60fbaafd4b2a5d87878a5ddbd380983126d633c6</revision>
+<tags></tags>
+<log><commit><revision>60fbaafd4b2a5d87878a5ddbd380983126d633c6</revision><author>Carl N. Baldwin &lt;carl@ecbaldwin.net&gt;</author><date>Mon Jan 15 13:43:26 2007 -0700</date><message>Commit artwork</message></commit>
+</log>
+<files><unmerged></unmerged><added></added><modified></modified><deleted></deleted></files>
+</collection>
+<collection><name>schematic</name>
+<revision>ddba767c01eb773fdf55161992ed169b8e028ce2</revision>
+<tags></tags>
+<log><commit><revision>ddba767c01eb773fdf55161992ed169b8e028ce2</revision><author>Carl N. Baldwin &lt;carl@ecbaldwin.net&gt;</author><date>Mon Jan 15 13:43:13 2007 -0700</date><message>Initial hierarchical commit (rogue)</message></commit>
+</log>
+<files><unmerged></unmerged><added></added><modified></modified><deleted></deleted></files>
+</collection>
+</block>
+<block>
+<name>h</name>
+<path>/home/cnb/work/src/ddm-again/linux-gnu/tests/blocks/h</path>
+<flow>test</flow>
+<repository>/home/cnb/work/src/ddm-again/linux-gnu/tests/repo/./test/h</repository>
+<hierarchy/>
+<collection><name>artwork</name>
+<revision>a09b149ceb1d300e9c505d3d797f901bacecd0c5</revision>
+<tags></tags>
+<log><commit><revision>a09b149ceb1d300e9c505d3d797f901bacecd0c5</revision><author>Carl N. Baldwin &lt;carl@ecbaldwin.net&gt;</author><date>Mon Jan 15 13:43:27 2007 -0700</date><message>Commit artwork</message></commit>
+</log>
+<files><unmerged></unmerged><added></added><modified></modified><deleted></deleted></files>
+</collection>
+<collection><name>schematic</name>
+<revision>0d214065f8b9bf4bbb9064ebf395e0d993d3896f</revision>
+<tags></tags>
+<log><commit><revision>0d214065f8b9bf4bbb9064ebf395e0d993d3896f</revision><author>Carl N. Baldwin &lt;carl@ecbaldwin.net&gt;</author><date>Mon Jan 15 13:43:14 2007 -0700</date><message>Initial hierarchical commit (rogue)</message></commit>
+</log>
+<files><unmerged></unmerged><added></added><modified></modified><deleted></deleted></files>
+</collection>
+</block>
+<block>
+<name>g</name>
+<path>/home/cnb/work/src/ddm-again/linux-gnu/tests/blocks/g</path>
+<flow>test</flow>
+<repository>/home/cnb/work/src/ddm-again/linux-gnu/tests/repo/./test/g</repository>
+<hierarchy><child><name>i</name><collection>artwork</collection><collection>schematic</collection></child><child><name>j</name><collection>artwork</collection><collection>schematic</collection></child><child><name>k</name><collection>artwork</collection><collection>schematic</collection></child></hierarchy>
+<collection><name>artwork</name>
+<revision>643ca44f06c90bba91c1c673e5913288ccad74ea</revision>
+<tags><tag><name>testtag</name><revision>643ca44f06c90bba91c1c673e5913288ccad74ea</revision></tag></tags>
+<log><commit><revision>643ca44f06c90bba91c1c673e5913288ccad74ea</revision><author>Carl N. Baldwin &lt;carl@ecbaldwin.net&gt;</author><date>Mon Jan 15 13:43:26 2007 -0700</date><message>Commit artwork</message></commit>
+</log>
+<files><unmerged></unmerged><added></added><modified></modified><deleted></deleted></files>
+</collection>
+<collection><name>schematic</name>
+<revision>9f3a7ed3f00dcc306de4daa904518c0b2c7789fd</revision>
+<tags><tag><name>testtag</name><revision>9f3a7ed3f00dcc306de4daa904518c0b2c7789fd</revision></tag></tags>
+<log><commit><revision>9f3a7ed3f00dcc306de4daa904518c0b2c7789fd</revision><author>Carl N. Baldwin &lt;carl@ecbaldwin.net&gt;</author><date>Mon Jan 15 13:43:13 2007 -0700</date><message>Initial hierarchical commit (rogue)</message></commit>
+</log>
+<files><unmerged></unmerged><added></added><modified></modified><deleted></deleted></files>
+</collection>
+</block>
+<block>
+<name>f</name>
+<path>/home/cnb/work/src/ddm-again/linux-gnu/tests/blocks/f</path>
+<flow>test</flow>
+<repository>/home/cnb/work/src/ddm-again/linux-gnu/tests/repo/./test/f</repository>
+<hierarchy><child><name>g</name><collection>artwork</collection><collection>schematic</collection></child></hierarchy>
+<collection><name>artwork</name>
+<revision>119fc79da19ff26bba3e1ef82850d616e960766d</revision>
+<tags></tags>
+<log><commit><revision>119fc79da19ff26bba3e1ef82850d616e960766d</revision><author>Carl N. Baldwin &lt;carl@ecbaldwin.net&gt;</author><date>Mon Jan 15 13:43:27 2007 -0700</date><message>Commit artwork</message></commit>
+</log>
+<files><unmerged></unmerged><added></added><modified></modified><deleted></deleted></files>
+</collection>
+<collection><name>schematic</name>
+<revision>6291a3960852c0b1ebed6e6464c464355e838e19</revision>
+<tags></tags>
+<log><commit><revision>6291a3960852c0b1ebed6e6464c464355e838e19</revision><author>Carl N. Baldwin &lt;carl@ecbaldwin.net&gt;</author><date>Mon Jan 15 13:43:16 2007 -0700</date><message>Initial hierarchical commit (rogue)</message></commit>
+</log>
+<files><unmerged></unmerged><added></added><modified></modified><deleted></deleted></files>
+</collection>
+</block>
+<block>
+<name>e</name>
+<path>/home/cnb/work/src/ddm-again/linux-gnu/tests/blocks/e</path>
+<flow>test</flow>
+<repository>/home/cnb/work/src/ddm-again/linux-gnu/tests/repo/./test/e</repository>
+<hierarchy><child><name>f</name><collection>artwork</collection><collection>schematic</collection></child><child><name>g</name><collection>artwork</collection><collection>schematic</collection></child><child><name>h</name><collection>artwork</collection><collection>schematic</collection></child></hierarchy>
+<collection><name>artwork</name>
+<revision>5feb449fd743a34da7dc117a35d00d01faf49b8f</revision>
+<tags></tags>
+<log><commit><revision>5feb449fd743a34da7dc117a35d00d01faf49b8f</revision><author>Carl N. Baldwin &lt;carl@ecbaldwin.net&gt;</author><date>Mon Jan 15 13:43:08 2007 -0700</date><message>Initial commit</message></commit>
+</log>
+<files><unmerged></unmerged><added></added><modified></modified><deleted></deleted></files>
+</collection>
+<collection><name>schematic</name>
+<revision>a67c7c82f5adacb4751c89aab5a88afb33966a63</revision>
+<tags></tags>
+<log><commit><revision>a67c7c82f5adacb4751c89aab5a88afb33966a63</revision><author>Carl N. Baldwin &lt;carl@ecbaldwin.net&gt;</author><date>Mon Jan 15 13:43:10 2007 -0700</date><message>Deleting a file</message></commit><commit><revision>1947f532d4346e4a27402cbd1f9177ee8f5e764a</revision><author>Carl N. Baldwin &lt;carl@ecbaldwin.net&gt;</author><date>Mon Jan 15 13:43:09 2007 -0700</date><message>Initial commit</message></commit>
+</log>
+<files><unmerged></unmerged><added></added><modified></modified><deleted></deleted></files>
+</collection>
+</block>
+<block>
+<name>a</name>
+<path>/home/cnb/work/src/ddm-again/linux-gnu/tests/blocks/a</path>
+<flow>test</flow>
+<repository>/home/cnb/work/src/ddm-again/linux-gnu/tests/repo/./test/a</repository>
+<hierarchy><child><name>b</name><collection>artwork</collection></child><child><name>c</name><collection>schematic</collection></child><child><name>d</name><collection>artwork</collection><collection>schematic</collection></child><child><name>e</name><collection>artwork</collection><collection>schematic</collection></child></hierarchy>
+<collection><name>artwork</name>
+<revision>6e00b6d9b740536cd826b6506d6444d2f8be4058</revision>
+<tags></tags>
+<log><commit><revision>6e00b6d9b740536cd826b6506d6444d2f8be4058</revision><author>Carl N. Baldwin &lt;carl@ecbaldwin.net&gt;</author><date>Mon Jan 15 13:43:27 2007 -0700</date><message>Commit artwork</message></commit>
+</log>
+<files><unmerged></unmerged><added></added><modified></modified><deleted></deleted></files>
+</collection>
+<collection><name>schematic</name>
+<revision>16c590720890b2d795df8cd50317cf8fb75c0e47</revision>
+<tags></tags>
+<log><commit><revision>16c590720890b2d795df8cd50317cf8fb75c0e47</revision><author>Carl N. Baldwin &lt;carl@ecbaldwin.net&gt;</author><date>Mon Jan 15 13:43:23 2007 -0700</date><message>Commit schematic</message></commit>
+</log>
+<files><unmerged></unmerged><added></added><modified></modified><deleted></deleted></files>
+</collection>
+</block>
+<generated>Mon, 15 Jan 2007 13:43:34 -0700</generated>
+</blocks>

@@ -1,0 +1,134 @@
+xmlargs(1)
+===========
+
+NAME
+----
+xmlargs - Read XML from the standard input or from a file and run an external
+program with text nodes extracted from the XML provided as arguments.
+
+SYNOPSIS
+--------
+[verse]
+'xmlargs' [-v|-t] [-r] [-S] [-W] [-n] XPathExpr command [arg [...]]
+
+
+DESCRIPTION
+-----------
+This manual page documents manlink:xmlargs[1].  manlink:xmlargs[1] reads
+XML data from the standard input or from a file.  It finds elements that
+match the given XPath expression, it extracts the immediate text node
+children of the element, concatenates them and provides them to the
+given command as an argument.
+
+  manlink:xmlargs[1] exits with the following status:
+  0 if it succeeds
+  123 if any invocation of 'command' exited with status 1-125
+  124 if 'command' exited with status 255
+  125 if 'command' is killed by a signal
+  126 if 'command' cannot be run
+  127 if 'command' is not found
+  1 if some other error occurred.
+
+manlink:xmlargs[1] was inspired by manlink:xargs[1].
+
+OPTIONS
+-------
+-v::
+-t::
+        Print the command line on the standard error output before
+        executing it.
+
+-r::
+        If this argument is given then the command will be run with no
+	arguments if the xpath expression does not match anything.
+
+        If this option is not given then the the command will not be run
+	at all if the expression matches nothing.
+
+-S::
+	Attempt to match expressions before the whole XML file has been
+	read in.  There are restrictions on what sort of Xpath
+	expressions can be matched.  This has the potential to use less
+	memory on very large input.  Also, if the input data is coming
+	at a very slow rate this has the potential to begin calling the
+	given command much earlier because it does not have to wait
+	until all of the input has been read.
+
+-W::
+	Read the whole input file.  Opposite of -S.  This is the default
+	behavior.
+
+-f file::
+	Read XML from file instead of from std input.
+
+-n max-args::
+	The maximum number of arguments to pass to a single invocation of the
+	command.
+
+XPath::
+        This is a required argument.  This expression is used by the
+        parser to find XML elements in the input stream.  The
+        details of the XPath language are beyond scope of this manual
+        page.
+
+	Assuming that you are familiar with XPath there is something of
+	which you should be aware if you use -S.  Each XPath expression
+	is evaluated in the context of a stream parser that has no
+	memory of the elements it has already seen and has no visibility
+	into the elements which it has not yet seen.
+
+        The consequence of evaluating the XPath expression within the
+        stream parser is that only a very narrow view of the entire
+        document tree is visible at a time.  Candidate elements will
+        always appear to be empty.  Each ancestor element up to the root
+        element of the document will appear to have only one child
+        element.  This basically means that many XPath expression that
+        includes any type of predicate WILL NOT WORK!
+
+        Many other XPath expressions do work.  Those that resemble unix
+        filesystem pathnames (e.g. "/path/to/element"), those that begin
+        with '//' (e.g. "//element") and even those that use the '|' or
+        set union operator do work (e.g. "//element|/path/to/elem" work
+        well.
+
+command::
+        This is a required argument.  This command will be run.  The
+	default is 'echo'.
+
+arg::
+        Any initial arguments that should be passed to 'command' each
+        time it is invoked.
+
+EXAMPLES
+--------
+Consider the following XML document (saved as 'my.xml').
+
+  <?xml version="1.0"?>
+  <root>
+    <element>
+      <name>first</name>
+    </element>
+    <element>
+      <name>second</name>
+    </element>
+  </root>
+
+This example illustrates how the content of each XML element is
+available to 'command' on the standard input.
+
+  $ cat my.xml | xmlargs //name
+  first second
+
+SEE ALSO
+--------
+manlink:xmlforeach[1].
+
+
+Author
+------
+Written by Carl Baldwin <carl@ecbaldwin.net>
+
+
+Bugs
+---
+Probably some.  I'm not aware of any right now.
